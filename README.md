@@ -4,6 +4,28 @@
   <title>kocham grzegorza</title>
 </head>
   <body>
-    <p>kocham brauna</p>
+    <style>
+    body {
+      margin: 0;
+      padding: 0;
+      /* Ustawienie zdjęcia jako tła */
+      background-image: url('https://www.magnapolonia.org/wp-content/uploads/2020/12/grzegorz-braun.jpg');
+      background-size: cover;       
+      background-position: center;  
+      background-repeat: repeat; 
+      height: 100vh;                
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      background-color: rgba(0, 0, 0, 0.5); /* półprzezroczyste tło dla lepszej czytelności */
+      padding: 20px 40px;
+      border-radius: 8px;
+    }
+  </style>
+    
   </body>
 </html>
